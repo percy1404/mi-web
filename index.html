@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise - Anita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="matrixCanvas"></canvas>
+
+    <div id="overlay" class="step">
+        <button id="startBtn">Abrir Regalo 🎁</button>
+    </div>
+
+    <div id="countdown" class="step hidden"></div>
+
+    <div id="messages" class="step hidden">
+        <h1 id="text-display"></h1>
+    </div>
+
+    <div id="letter-container" class="step hidden">
+        <div class="card" id="card">
+            <div class="card-front">❤️</div>
+            <div class="card-inside">
+                <img src="/WhatsApp.jpeg" alt="Percy" class="photo-main">
+                <p>Happy Birthday Sayang</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="heart-container" class="step hidden"></div>
+
+    <audio id="bgMusic" src="tu-cancion.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
